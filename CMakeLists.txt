@@ -6,8 +6,12 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(
     .
+    CONSOLE
 )
 
 add_executable(mcud
+    CONSOLE/console.c
     mcud.c
+    mcud_exec.c
+    version.c
 )

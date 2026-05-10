@@ -1,14 +1,11 @@
 #include <stdio.h>
 #include <unistd.h>
 
+#include "mcud_exec.h"
+
 int main()
 {
-    freopen("/dev/console", "w", stdout); 
-    freopen("/dev/console", "w", stderr);
-    for(;;)
-    {
-        printf("[MD] live...\n");
-        sleep(1);
-    }
+    mcud_exec_init();
+    main_fn();
     return 0;
 }
