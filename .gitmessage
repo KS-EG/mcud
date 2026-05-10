@@ -1,0 +1,28 @@
+# ===============================
+# Commit Message Template
+# ===============================
+#
+# Format:
+# <type>(<scope>): <subject>
+#
+# <body> (optional)
+# <footer> (optional)
+#
+# ===============================
+# Types:
+# feat     : new feature
+# fix      : bug fix
+# refactor : code restructure (no behavior change)
+# docs     : documentation only
+# test     : adding or updating tests
+# chore    : build, config, tooling changes
+# perf     : performance improvement
+#
+# ===============================
+# Examples:
+# feat(ssh): add remote execution support
+# fix(encoding): resolve utf-8 output issue
+# refactor(core): simplify command dispatcher
+# docs(readme): update project overview
+#
+# ===============================
