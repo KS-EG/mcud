@@ -1,2 +1,5 @@
 #include "version.h"
-const unsigned int APP_VERSION[1U] = {0U};
+const unsigned int MCUD_APP_VERSION[2U] = {
+    0U,
+    2U
+};
