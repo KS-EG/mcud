@@ -8,6 +8,6 @@
 #include <string.h>
 #include "CONSOLE/console.h"
 
-extern void checkCommand(void);
+extern void checkCommand (void);
 
 #endif

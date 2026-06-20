@@ -1,0 +1,3 @@
+/mcud/build/CMakeFiles/mcud.dir
+/mcud/build/CMakeFiles/edit_cache.dir
+/mcud/build/CMakeFiles/rebuild_cache.dir

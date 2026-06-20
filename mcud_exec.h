@@ -5,8 +5,8 @@
 #include "CONSOLE/console.h"
 #include "FILECOMMAND/filecommand.h"
 
-typedef void (*run_fn_t)(void);
+typedef void (*run_fn_t) (void);
 extern run_fn_t main_fn;
-extern void mcud_exec_init(void);
+extern void mcud_exec_init (void);
 
 #endif
